@@ -1,0 +1,4 @@
+FROM ghcr.io/hypersign-protocol/hid-node:latest
+
+RUN sh ./scripts/localnet-single-node/setup.sh
+CMD ["start"]
